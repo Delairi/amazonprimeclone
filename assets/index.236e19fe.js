@@ -37,7 +37,7 @@ font-family: 'Lato', sans-serif;
 @media ${e=>e.theme.mediaQueries.mediaTablet}{
     font-size:1.2em;
   }
-`;var Q="/amazonprimeclone/assets/background.fe673153.png",h="/amazonprimeclone/assets/backgroundcel.6470cb81.png";const i=f.exports.jsx,a=f.exports.jsxs,U=()=>a(T,{children:[i(J,{}),a(K,{children:[i(C,{children:"Welcome to prime video"}),i(L,{children:a(c,{children:["Enjoy exclusive Amazon Originals as well as popular movies and TV shows for ",i("strong",{children:"PEN 16.99"})," /month. Watch now, cancel anytime."]})}),i(m,{to:"/hola",children:"Prime Video Member? Sign in"}),a(E,{children:[i(u,{}),i(R,{children:"or"}),i(u,{})]}),i(m,{to:"/hola",children:"Start your free trial*"}),i(z,{children:"*Cancel your trial at any time"})]})]}),K=t.div`
+`;var Q="/amazonprimeclone/assets/background.fe673153.png",h="/amazonprimeclone/assets/backgroundcel.6470cb81.png";const i=f.exports.jsx,a=f.exports.jsxs,U=()=>a(T,{children:[i(J,{}),a(K,{children:[i(C,{children:"Welcome to prime video"}),i(L,{children:a(c,{children:["Enjoy exclusive Amazon Originals as well as popular movies and TV shows for ",i("strong",{children:"PEN 16.99"})," /month. Watch now, cancel anytime."]})}),i(m,{to:"/",children:"Prime Video Member? Sign in"}),a(E,{children:[i(u,{}),i(R,{children:"or"}),i(u,{})]}),i(m,{to:"/",children:"Start your free trial*"}),i(z,{children:"*Cancel your trial at any time"})]})]}),K=t.div`
 display:flex;
 flex-direction:column;
 align-items:flex-start;
