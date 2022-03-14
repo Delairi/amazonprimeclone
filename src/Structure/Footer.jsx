@@ -32,6 +32,7 @@ a{
     color:#007185;
     font-size:1em;
     text-decoration:none;
+    font-family: 'Lato', sans-serif;
     white-space:no-wrap;
     @media ${props => props.theme.mediaQueries['mediaCel']}{
      font-size:0.9em;

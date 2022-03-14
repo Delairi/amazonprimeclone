@@ -56,7 +56,7 @@ cursor:pointer;
 }
 `
 const ImgButton = styledComponents.div`
-background-image:url('/src/images/global.png');
+background-image:url(${ImgChange});
 background-repeat:no-repeat;
 background-size:cover;
 width:1.5em;
@@ -67,7 +67,7 @@ filter:invert(1);
  
 }
 @media ${props => props.theme.mediaQueries['mediaCel']}{
-  background-image:url('/src/images/user.png');
+  background-image:url(${ImgUser});
   width:1em;
   height:1em;
 }
@@ -79,7 +79,7 @@ align-items:center;
 
 `
 const Img = styledComponents.div`
-background-image:url('/src/images/logowhite.png');
+background-image:url(${ImgLogo});
 background-repeat:no-repeat;
 background-size:cover;
 width:7em;

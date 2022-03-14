@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import styledComponents from 'styled-components'
 import { Paragraph, Span, Title } from '../Components/Text'
+import ImgBackground from '../images/background.png'
+import ImgBackgroundCel from '../images/backgroundcel.png'
 const Portada = () => {
   return (
     <Contenedor>
@@ -12,7 +14,7 @@ const Portada = () => {
     <Divisor>
       <Paragraph>Enjoy exclusive Amazon Originals as well as popular movies and TV shows for <strong>PEN 16.99</strong> /month. Watch now, cancel anytime.</Paragraph>
       </Divisor>
-      <Link to='/hola'>
+      <Link to='/'>
         Prime Video Member? Sign in
       </Link>
       <Mix>
@@ -21,7 +23,7 @@ const Portada = () => {
       <Or></Or>
 
       </Mix>
-      <Link to='/hola'>
+      <Link to='/'>
         Start your free trial*
       </Link>
       <Cancel>*Cancel your trial at any time</Cancel>
@@ -85,7 +87,7 @@ margin:auto;
 `
 const Secure = styledComponents.div`
 @media ${props => props.theme.mediaQueries['mediaTablet']}{
-background:linear-gradient(to top, #000 0%, transparent 20%), url('/src/images/backgroundcel.jpg');
+background:linear-gradient(to top, #000 0%, transparent 20%), url(${ImgBackgroundCel});
 width:100%;
 height:570px;
 background-size:cover;
@@ -94,7 +96,7 @@ background-position:center top;
 }
 
 @media ${props => props.theme.mediaQueries['mediaCel']}{
-  background:linear-gradient(to top, #000 0%, transparent 20%), url('/src/images/backgroundcel.jpg');
+  background:linear-gradient(to top, #000 0%, transparent 20%), url(${ImgBackgroundCel});
   width:100%;
   min-height:46vh;
   background-size:cover;
@@ -103,7 +105,7 @@ background-position:center top;
   }
 `
 const Contenedor = styledComponents.div`
-background:linear-gradient(to right, #000 40%, transparent 58%),url('/src/images/background.jpg');
+background:linear-gradient(to right, #000 40%, transparent 58%),url(${ImgBackground});
 max-width:100%;
 min-height: 70vh;
 background-size:cover;

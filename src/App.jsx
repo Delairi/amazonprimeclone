@@ -1,4 +1,3 @@
-import './App.css'
 import Portada from './Structure/Portada'
 import {
   BrowserRouter,
@@ -12,7 +11,8 @@ function App() {
 
   return (
     <div>
-    <BrowserRouter>
+    <BrowserRouter basename='/amazonprimeclone'>
+    
     <Routes>
       <Route path='/' element={<Inicio/>}></Route>
     </Routes>

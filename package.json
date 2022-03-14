@@ -1,6 +1,7 @@
 {
   "name": "netflixclone",
   "private": true,
+  "homepage": "https://delairi.github.io/amazonprimeclone/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
