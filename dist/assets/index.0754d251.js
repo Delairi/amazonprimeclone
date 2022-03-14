@@ -86,7 +86,7 @@ margin:auto;
 
 `,I=t.div`
 @media ${e=>e.theme.mediaQueries.mediaTablet}{
-background:linear-gradient(to top, #000 0%, transparent 20%), url('/src/images/backgroundcel.png');
+background:linear-gradient(to top, #000 0%, transparent 20%), url('./src/images/backgroundcel.png');
 width:100%;
 height:570px;
 background-size:cover;
@@ -95,7 +95,7 @@ background-position:center top;
 }
 
 @media ${e=>e.theme.mediaQueries.mediaCel}{
-  background:linear-gradient(to top, #000 0%, transparent 20%), url('/src/images/backgroundcel.png');
+  background:linear-gradient(to top, #000 0%, transparent 20%), url('./src/images/backgroundcel.png');
   width:100%;
   min-height:46vh;
   background-size:cover;
@@ -103,7 +103,7 @@ background-position:center top;
   background-position:center top;
   }
 `,K=t.div`
-background:linear-gradient(to right, #000 40%, transparent 58%),url('/src/images/background.png');
+background:linear-gradient(to right, #000 40%, transparent 58%),url('./src/images/background.png');
 max-width:100%;
 min-height: 70vh;
 background-size:cover;
